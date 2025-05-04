@@ -1,0 +1,27 @@
+1. Szükséges szoftverek:
+A szakdolgozat működéséhez a XAMPP telepítése szükséges.
+Látogasson el a hivatalos XAMPP weboldalra. Töltsön le egy megfelelő verziót az Ön operációs rendszeréhez. Kövesse az installációs lépéseket, majd indítsa el a XAMPP vezérlőpaneljét.
+
+2. Beállítások:
+Miután telepítette a XAMPP-ot, indítsa el az Apache és MySQL szolgáltatásokat a vezérlőpulton keresztül.
+A XAMPP alapértelmezett mappastruktúrája alapján helyezze el a webalkalmazás fájljait a htdocs mappában, ami általában a következő helyen található: C:/xampp/htdocs.
+
+3. Adatbázis importálása:
+A webalkalmazás működéséhez importálnia kell a database.sql nevű adatbázisfájlt a MySQL adatbázisba.
+Nyissa meg a böngészőjét, és írja be a következő URL-t: http://localhost/phpmyadmin.
+A felhasználói felületen válassza ki az Import menüpontot, majd válassza ki és tallózza a database.sql fájlt, ami az alábbi helyen található: C:/xampp/htdocs/Papp-Edina-2024.05.01/database. Ezután kattintson az Import gombra az importálás elindításához.
+
+4. Webalkalmazás megnyitása:
+Nyissa meg a böngészőjét, és a címmezőbe írja be a következő URL-t: http://localhost/Papp-Edina-2025.05.03/home.php, majd nyomja meg az Enter billentyűt.
+
+5. Felhasználók:
+A program az alábbi felhasználókkal tesztelhető:
+Admin felhasználó belépési adatai:
+Email: admin@admin.com
+Jelszó: xxxxxxxx
+
+Felhasználó belépési adatai:
+Email: klara@gmail.com
+Jelszó: 12345678
+
+
